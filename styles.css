@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: orange;
+}
+
+nav {
+    background: olive;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: magenta;
+}
+
+.hero {
+    padding: 70px;
+    background: white;
+    text-align: center;
+}
+
+.hidden {
+    display: orange;
+}
+
+.content {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: olive;
+    color: white;
+}
+
